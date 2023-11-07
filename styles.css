@@ -1,0 +1,246 @@
+/* for the whole head line */
+.head {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;  
+    justify-content: space-between;
+}
+
+/* for kids world image */
+.kid{
+    margin-top: 18px;
+    margin-left: 50px;
+}
+
+/* for the whole head section */
+.header{
+    margin-bottom: 150px;
+}
+
+
+/* cart img and text in top right */
+.cart{
+    display: flex;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+/* only for cart img */
+.cart img{
+    height: 30px;
+    position: relative;
+}
+
+/* only for text beside cart img */
+.cart p{
+    font-weight: 800;
+    font-size: smaller;
+}
+
+/* text on image */
+.texton{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    color: white;
+    font-size: x-large;
+}
+
+/* for # text alone */
+.texton p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    font-weight: 600;
+}
+
+/* for heading */
+.heading{
+    margin-left: 65px;
+}
+
+/* for the book images */
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+
+/* for the book images */
+.main img{
+    height: 200px; 
+}
+
+/* for dark text under image */
+.main p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+}
+
+/* for the light coloured texts */
+.main h4{
+    font-weight: lighter;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+/* to make text and add button 1 line */
+.main .join{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* to make add and cart img together */
+.tog{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    background-color: rgb(12, 167, 219);
+    height: 45px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+/* for  */
+.tog h3{
+    margin-top: 20px;
+}
+
+/* for the cart imgs */
+.join img{
+    padding: 0px;
+    width: 25px;
+    height: 20px;
+    margin-top: 20px;
+    right: 50px;
+}
+
+/* for mid para */
+.mid p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000; 
+}
+
+/* for the whole mid section */
+.mid{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+
+/* for the big images in mid */
+.mid img{
+    height: 235px;
+}
+
+/* for mid h4 tag */
+ .mid h4{
+    font-weight: lighter;
+    color: grey;
+    font-family: Arial,Helvetica, sans-serif;
+    font-size: medium;
+}
+
+/* for the text and add button to come in 1 line */
+.class{
+   display: flex;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: smaller;
+   background-color: rgb(12, 167, 219);
+   height: 42px;
+   border-radius: 5px;
+}
+
+/* for cart images */
+.class img{
+    padding: 0px; 
+    width: 25px;
+    height: 20px; 
+    margin-top: 15px;
+}
+
+/* for text and add button */
+.mid .unite{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* for bottom section of things */
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+
+/* for images in bottom section */
+.bottom img{
+    height: 235px;
+}
+
+/* for text and add button to come in 1 line */
+.bottom .with{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* for add and cart imgs */
+.together{
+    display: flex;
+    color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: smaller;
+   background-color: rgb(12, 167, 219);
+   height: 42px;
+   border-radius: 5px;
+}
+
+/* cart image */
+.together img{
+    padding: 0px; 
+    width: 25px;
+    height: 20px; 
+    margin-top: 15px;
+}
+
+/* for para */
+.bottom p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+}
+
+/* for h4 to make it light */
+.bottom h4{
+    font-weight: lighter;
+    color: grey;
+    font-family: Arial,Helvetica, sans-serif;
+    font-size: medium;
+}
+
+/* for the image in footer */
+.footer img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+/* for the entire footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+}
+
+/* for the 1st div in footer */
+.footer .div1{
+    margin-left: 60px;
+}
+
+/* for the 2nd div in footer */
+.footer .div2{
+    margin-right: 50px;
+}
+
