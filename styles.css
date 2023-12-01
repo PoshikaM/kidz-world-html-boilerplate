@@ -223,7 +223,8 @@
 .footer img{
     width: 100px;
     height: 100px;
-    border-radius: 100px;
+    border-radius: 50%;
+
 }
 
 /* for the entire footer */
@@ -231,16 +232,110 @@
     display: flex;
     justify-content: space-between;
     color: white;
+    /* width: 100%; */
     background-color: black;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 /* for the 1st div in footer */
-.footer .div1{
+/* .footer .div1{
     margin-left: 60px;
-}
+} */
 
 /* for the 2nd div in footer */
 .footer .div2{
-    margin-right: 50px;
+    margin-top: 30px;
+    align-items: center;
+    text-align: right;
 }
 
+@media (max-width: 700px) {
+    .heading{
+        text-align: center;
+        font-size:50px;
+    }
+
+    /* Book section adjustments */
+    .main, .mid, .bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main img, .mid img, .bottom img{
+        height: auto;
+        width: auto;
+    }
+
+    .join,
+    .tog,
+    .join img {
+        width: auto;
+        box-sizing: border-box;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .hello p{
+        text-align: center;
+        font-size:xx-large;
+    }
+
+    .hello h4{
+        text-align: center;
+        font-size:xx-large;
+    }
+
+    .with>h3, .unite>h3, .join>h3{
+        font-size: 40px;
+        margin-top: 15px;
+    }
+
+    .together h3, .class h3, .tog h3{
+        margin-top: 15px;
+    }
+
+    .together, .class, .tog{
+        padding: 5px;
+        font-size: x-large;
+        height: 60px;
+        border: 1px solid black;
+    }
+
+    .together img, .class img, .tog img{
+        height: 30px;
+    }
+
+    /* for footer part */
+    .footer {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    .footer .div1,
+    .footer .div2 {
+        margin: 10px 0;
+    }
+}
+
+/* Media query for screens smaller than 500px */
+@media (max-width: 500px) {
+
+    /* Body and Books adjustments */
+    body,
+    .books {
+        text-align: center;
+    }
+
+    /* Footer adjustments */
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .div1,
+    .footer .div2 {
+        margin: 0;
+    }
+}
+    
